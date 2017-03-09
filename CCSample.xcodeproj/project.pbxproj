@@ -26,7 +26,7 @@
 		OBJ_11 /* CCommonCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCommonCrypto.h; sourceTree = "<group>"; };
 		OBJ_14 /* CCSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCSample.swift; sourceTree = "<group>"; };
 		OBJ_17 /* CCSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCSampleTests.swift; sourceTree = "<group>"; };
-		OBJ_20 /* CCSample.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CCSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_20 /* CCSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CCSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_21 /* CCSampleTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = CCSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* CCommonCrypto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCommonCrypto.m; sourceTree = "<group>"; };
@@ -255,6 +255,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CCSample;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OBJC_BRIDGING_HEADER = Sources/CCommonCrypto/include/CCommonCrypto.h;
 				TARGET_NAME = CCSample;
 			};
 			name = Debug;
@@ -279,6 +280,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CCSample;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OBJC_BRIDGING_HEADER = Sources/CCommonCrypto/include/CCommonCrypto.h;
 				TARGET_NAME = CCSample;
 			};
 			name = Release;
