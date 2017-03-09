@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C1216F21E713A3600813053 /* CCommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* CCommonCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		OBJ_28 /* CCommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* CCommonCrypto.m */; };
 		OBJ_35 /* CCSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* CCSample.swift */; };
 		OBJ_37 /* CCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* CCommonCrypto.framework */; };
@@ -159,6 +160,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C1216F21E713A3600813053 /* CCommonCrypto.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
