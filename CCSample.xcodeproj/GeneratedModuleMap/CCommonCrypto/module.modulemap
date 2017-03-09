@@ -1,5 +1,0 @@
-module CCommonCrypto {
-    umbrella header "/Users/norio/github/CCSample/Sources/CCommonCrypto/include/CCommonCrypto.h"
-    link "CCommonCrypto"
-    export *
-}

@@ -41,7 +41,6 @@
 
 /* Begin PBXFileReference section */
 		OBJ_11 /* CCommonCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCommonCrypto.h; sourceTree = "<group>"; };
-		OBJ_12 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = /Users/norio/github/CCSample/CCSample.xcodeproj/GeneratedModuleMap/CCommonCrypto/module.modulemap; sourceTree = "<group>"; };
 		OBJ_14 /* CCSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCSample.swift; sourceTree = "<group>"; };
 		OBJ_17 /* CCSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCSampleTests.swift; sourceTree = "<group>"; };
 		OBJ_19 /* CCommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CCommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				OBJ_11 /* CCommonCrypto.h */,
-				OBJ_12 /* module.modulemap */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -309,7 +307,6 @@
 				);
 				INFOPLIST_FILE = CCSample.xcodeproj/CCommonCrypto_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MODULEMAP_FILE = CCSample.xcodeproj/GeneratedModuleMap/CCommonCrypto/module.modulemap;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = CCommonCrypto;
@@ -334,7 +331,6 @@
 				);
 				INFOPLIST_FILE = CCSample.xcodeproj/CCommonCrypto_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MODULEMAP_FILE = CCSample.xcodeproj/GeneratedModuleMap/CCommonCrypto/module.modulemap;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = CCommonCrypto;
