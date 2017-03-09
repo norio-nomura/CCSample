@@ -1,4 +1,6 @@
+#if SWIFT_PACKAGE
 import CCommonCrypto
+#endif
 import Foundation
 
 func sha256(data: NSData) -> String {
